@@ -92,8 +92,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-margin-right: auto;
-margin-left: auto;
+  margin-right: 131px;
+  margin-left: 131px;
   padding-bottom: 55px;
   padding-top: 55px;
 }
