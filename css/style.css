@@ -11,7 +11,7 @@
 /* !default styles*/
 
 body {
-  color: var(--main-text-cl);
+  color: var(--text-cl);
   background-color: var(--bg-cl);
 
   font-family: Poppins, sans-serif;
@@ -98,13 +98,15 @@ section:last-child {
   | Секція 2 (Skills section)
   |============================
 */
+
 .skills-title {
   margin-bottom: 60px;
 
   font-weight: 600;
   font-size: 48px;
+  line-height: (72 / 48);
   text-align: center;
-  color: #000;
+  color: var(--headline-cl);
 }
 
 .skills-list {
@@ -158,11 +160,19 @@ section:last-child {
 
   font-weight: 600;
   font-size: 30px;
-  color: var(--accent-color);
+  line-height: calc(45 / 30);
+
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--btn-bg-cl);
 }
 
 .skills-list .txt {
   margin-bottom: 30px;
+  max-width: 347px;
+
+  font-size: 16px;
+  line-height: calc(24 / 16);
 
   font-size: 16px;
 }
@@ -179,6 +189,9 @@ section:last-child {
   text-decoration: none;
   color: var(--btn-txt-cl);
 
+  font-weight: 500;
+  line-height: calc(30 / 20);
+
   background-color: var(--btn-bg-cl);
   border-radius: 10px;
 }
@@ -190,4 +203,11 @@ section:last-child {
   padding-bottom: 16px;
 
   font-size: 18px;
+  line-height: calc(27 / 18);
 }
+
+/**
+  |============================
+  | Наступна секція
+  |============================
+*/
