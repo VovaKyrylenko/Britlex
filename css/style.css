@@ -389,11 +389,13 @@ section:last-child {
 }
 .about-list {
   display: flex;
+
   gap: 131px;
 
   margin-left: 49px;
 }
 .about-list__item {
+  text-align: center;
 }
 .about-list__header {
   font-weight: 600;
