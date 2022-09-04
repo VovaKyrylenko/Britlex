@@ -87,11 +87,19 @@ section {
 
 .hero-title{
   color: var(--headline-cl);
+  width: 386px;
   font-weight: 600;
   font-size: 64px;
   line-height: calc(80/64);
   margin-bottom: 40px;
 }
+
+.h1-light {
+  display: flex;
+  gap: 34px;
+  align-items: center;
+}
+
 
 .hero-text{
   font-size: 24px;
@@ -113,6 +121,9 @@ section {
   display: flex;
   gap: 144px;
 }
+
+
+
 
 
 
