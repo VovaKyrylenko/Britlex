@@ -63,6 +63,14 @@ section {
   padding-bottom: 90px;
 }
 
+section:first-child {
+  padding-top: 55px;
+}
+
+section:last-child {
+  padding-bottom: 55px;
+}
+
 /* !GENERAL */
 
 /* class which hide something */
