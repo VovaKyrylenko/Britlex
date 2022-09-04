@@ -59,6 +59,15 @@ button {
 section {
   max-width: 1600px;
   margin: auto;
+  padding: 90px 0;
+}
+
+section:last-child {
+  padding-bottom: 55px;
+}
+
+section:first-child {
+  padding-top: 55px;
 }
 
 /* !GENERAL */
