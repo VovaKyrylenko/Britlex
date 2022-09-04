@@ -1,0 +1,86 @@
+:root {
+    --bg-cl: #FFF;
+    --text-cl: #8F95A5;
+    --headline-cl: #000;
+    --elements-bg-cl: #F5F5F5;
+    --btn-bg-cl: #263238;
+    --btn-txt-cl: #FFF;
+    --logo-cl: #939393;
+}
+
+
+/* !default styles*/
+
+body {
+  color: var(--main-text-cl);
+  background-color: var(--bg-cl);
+
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+}
+
+
+/* !Style normalazing user*/
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: inherit;
+}
+
+section {
+  max-width: 1600px;
+  margin: auto;
+}
+
+/* !GENERAL */
+
+/* class which hide something */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* container */
+.container {
+  width: 1338px;
+  margin: auto;
+}
