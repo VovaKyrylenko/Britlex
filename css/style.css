@@ -6,6 +6,7 @@
   --btn-bg-cl: #263238;
   --btn-txt-cl: #fff;
   --logo-cl: #939393;
+  --numbers-cl: #2a3246;
 }
 
 /* !default styles*/
@@ -83,7 +84,7 @@ section {
   margin: auto;
 }
 
-/* !HEADER */
+/* !FOOTER */
 
 .footer {
   padding-top: 22px;
@@ -116,4 +117,60 @@ section {
   letter-spacing: 0.02em;
 }
 
-/* !HEADER */
+/* !FOOTER */
+
+/* about us */
+.about-container {
+  display: flex;
+  align-items: center;
+}
+.about-img {
+  width: 540px;
+}
+.about-header {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: calc(72 / 48);
+
+  margin-bottom: 60px;
+
+  color: var(--headline-cl);
+}
+.about-text {
+  width: 652px;
+
+  margin-bottom: 30px;
+
+  font-size: 20px;
+  line-height: 1.8;
+
+  color: var(--text-cl);
+}
+.about-wrapper {
+  margin-right: auto;
+}
+.about-list {
+  display: flex;
+  gap: 131px;
+
+  margin-left: 49px;
+}
+.about-list__item {
+}
+.about-list__header {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+
+  color: var(--numbers-cl);
+}
+.about-list__text {
+  font-size: 20px;
+  line-height: 30px;
+
+  color: var(--text-cl);
+}
+.about-list .about-list__lang {
+  width: 108px;
+}
+/* about us finish */
