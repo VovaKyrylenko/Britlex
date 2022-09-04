@@ -1,13 +1,12 @@
 :root {
-    --bg-cl: #FFF;
-    --text-cl: #8F95A5;
-    --headline-cl: #000;
-    --elements-bg-cl: #F5F5F5;
-    --btn-bg-cl: #263238;
-    --btn-txt-cl: #FFF;
-    --logo-cl: #939393;
+  --bg-cl: #fff;
+  --text-cl: #8f95a5;
+  --headline-cl: #000;
+  --elements-bg-cl: #f5f5f5;
+  --btn-bg-cl: #263238;
+  --btn-txt-cl: #fff;
+  --logo-cl: #939393;
 }
-
 
 /* !default styles*/
 
@@ -18,7 +17,6 @@ body {
   font-family: Poppins, sans-serif;
   font-size: 20px;
 }
-
 
 /* !Style normalazing user*/
 ul {
@@ -61,6 +59,8 @@ button {
 section {
   max-width: 1600px;
   margin: auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 /* !GENERAL */
@@ -83,4 +83,103 @@ section {
 .container {
   width: 1338px;
   margin: auto;
+}
+
+/**
+  |============================
+  | Секція 2 (Skills section)
+  |============================
+*/
+.skills-title {
+  margin-bottom: 60px;
+
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  color: #000;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(3, 426px);
+  grid-template-rows: 579px 338px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.skills-list > .item {
+  padding-top: 32px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 32px;
+
+  background-color: var(--elements-bg-cl);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.speak-item {
+  grid-area: 1 / 1 / 3 / 2;
+}
+
+.write-item {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.read-item {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.listen-item {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+.skills-list .img {
+  display: block;
+}
+
+.skills-list .img:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.skills-list .title {
+  margin-bottom: 20px;
+
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--accent-color);
+}
+
+.skills-list .txt {
+  margin-bottom: 30px;
+
+  font-size: 16px;
+}
+
+.skills-list .more-info-link {
+  display: inline-block;
+
+  padding-top: 15px;
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-bottom: 15px;
+
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--btn-txt-cl);
+
+  background-color: var(--btn-bg-cl);
+  border-radius: 10px;
+}
+
+.speak-item .more-info-link {
+  padding-top: 17px;
+  padding-left: 64px;
+  padding-right: 63px;
+  padding-bottom: 16px;
+
+  font-size: 18px;
 }
