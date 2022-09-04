@@ -105,6 +105,37 @@ section:last-child {
 }
 
 
+.hero-title{
+  color: var(--headline-cl);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: calc(80/64);
+  margin-bottom: 40px;
+}
+
+.hero-text{
+  font-size: 24px;
+  line-height: calc(36/24);
+  margin-bottom: 60px;
+}
+
+.hero-button{
+  color: var(--bg-cl);
+  font-size: 36px;
+  line-height: calc(54/36);
+  letter-spacing: 3%;
+  background-color: var(--btn-bg-cl);
+  padding: 23px 64px;
+  border-radius: 10px;
+}
+
+.hero-container {
+  display: flex;
+  gap: 144px;
+}
+
+
+
   |============================
   | Секція 2 (Skills section)
   |============================
@@ -222,7 +253,7 @@ section:last-child {
   | Наступна секція
   |============================
 */
-=======
+
 /* !FOOTER */
 
 .footer {
