@@ -105,6 +105,74 @@ section:last-child {
 }
 
 
+
+/* Serhii Header */
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 131px;
+  margin-left: 131px;
+  padding-bottom: 55px;
+  padding-top: 55px;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 50px;
+
+  margin-left: 236px;
+  margin-right: 121px;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.lex {
+  color: var(--logo-cl);
+}
+
+.item-nav {
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: var(--headline-cl);
+}
+
+.item-nav:hover {
+  color: var(--logo-cl);
+}
+
+.button-nav {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--headline-cl);
+
+  border: 2px solid var(--btn-bg-cl);
+  border-radius: 10px;
+
+  width: 312px;
+  height: 70px;
+}
+
+.button-nav:hover {
+  background-color: var(--btn-bg-cl);
+  color: var(--btn-txt-cl);
+}
+
+
+/* Serhii Header */
+
 .hero-title{
   color: var(--headline-cl);
   font-weight: 600;
@@ -344,3 +412,4 @@ section:last-child {
   width: 108px;
 }
 /* about us finish */
+
